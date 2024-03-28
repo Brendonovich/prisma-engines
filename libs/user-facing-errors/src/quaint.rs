@@ -1,6 +1,5 @@
 use crate::{common, query_engine, KnownError};
 use common::ModelKind;
-use indoc::formatdoc;
 use quaint::{error::ErrorKind, prelude::ConnectionInfo};
 
 impl From<&quaint::error::DatabaseConstraint> for query_engine::DatabaseConstraint {

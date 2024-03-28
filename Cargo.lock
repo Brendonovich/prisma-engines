@@ -2877,18 +2877,18 @@ dependencies = [
 [[package]]
 name = "postgres-native-tls"
 version = "0.5.0"
-source = "git+https://github.com/prisma/rust-postgres?branch=pgbouncer-mode#00d4815e58859261bdfca71c75be7dc657303f7d"
+source = "git+https://github.com/prisma/rust-postgres?rev=00d4815e58859261bdfca71c75be7dc657303f7d#00d4815e58859261bdfca71c75be7dc657303f7d"
 dependencies = [
  "native-tls",
  "tokio",
  "tokio-native-tls",
- "tokio-postgres 0.7.7 (git+https://github.com/prisma/rust-postgres?branch=pgbouncer-mode)",
+ "tokio-postgres 0.7.7 (git+https://github.com/prisma/rust-postgres?rev=00d4815e58859261bdfca71c75be7dc657303f7d)",
 ]
 
 [[package]]
 name = "postgres-protocol"
 version = "0.6.4"
-source = "git+https://github.com/prisma/rust-postgres?branch=pgbouncer-mode#00d4815e58859261bdfca71c75be7dc657303f7d"
+source = "git+https://github.com/prisma/rust-postgres?rev=00d4815e58859261bdfca71c75be7dc657303f7d#00d4815e58859261bdfca71c75be7dc657303f7d"
 dependencies = [
  "base64 0.13.1",
  "byteorder",
@@ -2923,7 +2923,7 @@ dependencies = [
 [[package]]
 name = "postgres-types"
 version = "0.2.4"
-source = "git+https://github.com/prisma/rust-postgres?branch=pgbouncer-mode#00d4815e58859261bdfca71c75be7dc657303f7d"
+source = "git+https://github.com/prisma/rust-postgres?rev=00d4815e58859261bdfca71c75be7dc657303f7d#00d4815e58859261bdfca71c75be7dc657303f7d"
 dependencies = [
  "bit-vec",
  "bytes",
@@ -3212,7 +3212,7 @@ dependencies = [
  "thiserror",
  "tiberius",
  "tokio",
- "tokio-postgres 0.7.7 (git+https://github.com/prisma/rust-postgres?branch=pgbouncer-mode)",
+ "tokio-postgres 0.7.7 (git+https://github.com/prisma/rust-postgres?rev=00d4815e58859261bdfca71c75be7dc657303f7d)",
  "tokio-util 0.6.10",
  "tracing",
  "tracing-core",
@@ -4797,7 +4797,7 @@ dependencies = [
 [[package]]
 name = "tokio-postgres"
 version = "0.7.7"
-source = "git+https://github.com/prisma/rust-postgres?branch=pgbouncer-mode#00d4815e58859261bdfca71c75be7dc657303f7d"
+source = "git+https://github.com/prisma/rust-postgres?rev=00d4815e58859261bdfca71c75be7dc657303f7d#00d4815e58859261bdfca71c75be7dc657303f7d"
 dependencies = [
  "async-trait",
  "byteorder",
